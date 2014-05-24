@@ -1,0 +1,11 @@
+ecommerce_photography_homepage:
+    pattern:  /hello/{name}
+    defaults: { _controller: EcommercePhotographyBundle:Default:index }
+
+ecommerce_photography_home:
+    pattern:  /
+    defaults: { _controller: EcommercePhotographyBundle:Default:index }
+
+EcommercePhotographyBundle_photo:
+    resource: "@EcommercePhotographyBundle/Resources/config/routing/photo.yml"
+    prefix:   /photo

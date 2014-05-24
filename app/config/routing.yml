@@ -1,0 +1,8 @@
+
+ecommerce_user:
+    resource: "@EcommerceUserBundle/Resources/config/routing.yml"
+    prefix:   /
+
+ecommerce_photography:
+    resource: "@EcommercePhotographyBundle/Resources/config/routing.yml"
+    prefix:   /

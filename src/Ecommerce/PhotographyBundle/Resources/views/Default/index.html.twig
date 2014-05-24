@@ -1,0 +1,30 @@
+
+{% extends "::base.html.twig" %}
+
+{% block body %}
+	<table class="table">
+		<thead>
+			<th>Album</th>
+			<th>Titre</th>
+			<th>taille</th>
+		</thead>
+		<tbody>
+
+			{% for  item in items  %}
+			<tr>
+				<td>{{item.album}}</td>
+				<td>{{item.titre}}</td>
+				<td>{{item.taille}}</td>
+			</tr>
+			{% endfor %}
+			
+		</tbody>
+	</table>
+
+	{% for item in items %}
+	<button class="btn btn-primary">
+		{{item.titre}}
+	</button>
+	{% endfor %}
+
+{% endblock %}

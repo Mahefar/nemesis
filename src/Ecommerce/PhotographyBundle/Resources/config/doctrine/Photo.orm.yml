@@ -1,0 +1,22 @@
+Ecommerce\PhotographyBundle\Entity\Photo:
+    type: entity
+    table: null
+    repositoryClass: Ecommerce\PhotographyBundle\Entity\PhotoRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        titre:
+            type: string
+            length: 255
+        dateCreation:
+            type: datetime
+            column: date_creation
+        emplacementFichier:
+            type: string
+            length: 255
+            column: emplacement_fichier
+    lifecycleCallbacks: {  }

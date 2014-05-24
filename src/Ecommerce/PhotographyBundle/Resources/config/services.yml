@@ -1,0 +1,7 @@
+parameters:
+#    ecommerce_photography.example.class: Ecommerce\PhotographyBundle\Example
+
+services:
+#    ecommerce_photography.example:
+#        class: %ecommerce_photography.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
